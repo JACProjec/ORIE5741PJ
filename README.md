@@ -49,7 +49,7 @@ Ensure all required data files are in the same folder as the notebook. Once done
 
 # Analysis and Report
 
-Our report and presentation can be found in the 
+Our report and presentation can be found in the [reports folder](report).
 
 
 
