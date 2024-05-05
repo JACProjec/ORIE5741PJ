@@ -36,11 +36,14 @@ Our input data is very large and requires a drive link to download (found [here]
 
 To clean it we simply downloaded comment and post data for 2016-01-01 - 2017-01-05 from the academic torrent. This took significant space up on our computers (~800gb) since it composed comments and posts from all subreddits. We filtered for our relevant games and compressed into zst files. 
 
-Should you wish to do the same, you may unpack the files using
+Should you wish to do the same, you may unpack the files using [ztsd_unpack](data_processing/ztsd_unpack.py) and filter for subreddits using [subreddit_filter](data_processing/subreddit_filter.py)
 
-How to run
+# How to run
 
-To begin, download the data from the google drive link above. The data has already been filtered and is in json form. We have included our ztsd_unpack.py file for context of how we unpacked our initial data.
+To begin, download the data from the google drive link above. The data has already been filtered and is in json form. 
+**Please note:** This data is very large, particularly comments, so running the notebook without a good memory and processing speed will take some time! If you do not wish to run the sentiments analysis, we have preprocessed the sentiments for posts and comments [here](https://drive.google.com/drive/folders/1R2RbRyzjkVBQ8fBwrfUX97MMRnrfCk9c). Simply move these csvs into the same folder as the notebook and comment out the sentiment functions and **only use the pd.read_csv** line!
+
+
 
 
 
