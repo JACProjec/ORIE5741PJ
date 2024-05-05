@@ -38,12 +38,18 @@ To clean it we simply downloaded comment and post data for 2016-01-01 - 2017-01-
 
 Should you wish to do the same, you may unpack the files using [ztsd_unpack](data_processing/ztsd_unpack.py) and filter for subreddits using [subreddit_filter](data_processing/subreddit_filter.py)
 
+The daily player counts for each game can also be found within the same fold as our input data. It will also need to be in the same folder as the input data and the python notebook once downloaded.
+
 # How to run
 
 To begin, download the data from the google drive link above. The data has already been filtered and is in json form. 
-**Please note:** This data is very large, particularly comments, so running the notebook without a good memory and processing speed will take some time! If you do not wish to run the sentiments analysis, we have preprocessed the sentiments for posts and comments [here](https://drive.google.com/drive/folders/1R2RbRyzjkVBQ8fBwrfUX97MMRnrfCk9c). Simply move these csvs into the same folder as the notebook and comment out the sentiment functions and **only use the pd.read_csv** line!
+**Please note:** This data is very large, particularly comments, so running the notebook without a good memory and processing speed will take some time! If you do not wish to run the sentiments analysis, we have preprocessed the sentiments for posts and comments [here](https://drive.google.com/drive/folders/1R2RbRyzjkVBQ8fBwrfUX97MMRnrfCk9c). Simply move these csvs into the same folder as the notebook and comment out the sentiment functions and **only use the pd.read_csv** line! 
 
 Ensure all required data files are in the same folder as the notebook. Once done, the notebook should run without error.
+
+# Analysis and Report
+
+Our report and presentation can be found in the 
 
 
 
